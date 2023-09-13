@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="icon" href="./images/logo.svg" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <title>ComfortMed Clinic</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__logo">
+            <a href="">
+              <img src="./images/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="nav__menu">
+            <span class="nav__menu-line"></span>
+          </div> 
+          <div class="nav__menu-list">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">Главная</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#about">О нас</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#services">Услуги</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#contacts">Контакты</a>
+              </li>
+              <li class="nav__item">
+                <a class="send__msg nav__link" href="#form">Отправить заявку</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="header__content">
+        <div class="container header__container">
+          <div class="header__text">
+            <h1 class="header__title">
+              Comfort <span class="title-red">Med</span> - многопрофильный
+              медицинский центр.
+            </h1>
+            <p class="header__txt">
+              Современные медицинские технологии для самых важных пациентов!
+            </p>
+            <a href="tel:998712152966" class="header__btn btn">Узнать больше</a>
+          </div>
+          <div class="header__img">
+            <img class="header_img" src="./images/header.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main" id="main">
+      <section class="services" id="services">
+        <div class="services__text">
+          <h2 class="services__title">Наши улсуги</h2>
+          <p class="services__txt">
+            Мы гарантируем высококлассное обслуживание и индивидуальный подход к
+            КАЖДОМУ пациенту!
+          </p>
+        </div>
+        <div class="container">
+          <div class="swiper mySwiper services__swiper">
+            <div class="swiper-wrapper services__cards">
+              <div class="swiper-slide services__card">
+                <img
+                  class="services__card-img"
+                  src="./images/lungs-icon.png"
+                  alt=""
+                />
+                <h3 class="services__card-title">Пульмонология</h3>
+                <p class="services__card-txt">
+                  Наши пульмонологи имеют большой опыт в диагностике и лечении
+                  заболеваний пульмонологической системы
+                </p>
+              </div>
+              <div class="swiper-slide services__card">
+                <img
+                  class="services__card-img"
+                  src="./images/medicine-icon.png"
+                  alt=""
+                />
+                <h3 class="services__card-title">Medicine</h3>
+                <p class="services__card-txt">
+                  Наши врачи-медики имеют большой опыт в диагностике и лечении
+                  заболеваний с использованием новейшей системы medicine.
+                </p>
+              </div>
+              <div class="swiper-slide services__card">
+                <img
+                  class="services__card-img"
+                  src="./images/kardiolog-icon.png"
+                  alt=""
+                />
+                <h3 class="services__card-title">Кардиологи</h3>
+                <p class="services__card-txt">
+                  Наши кардиологи имеют большой опыт в диагностике и лечении
+                  заболеваний сердечно-сосудистой системы.
+                </p>
+              </div>
+              <div class="swiper-slide services__card">
+                <img
+                  class="services__card-img"
+                  src="./images/lungs-icon.png"
+                  alt=""
+                />
+                <h3 class="services__card-title">Пульмонология</h3>
+                <p class="services__card-txt">
+                  Наши пульмонологи имеют большой опыт в диагностике и лечении
+                  заболеваний пульмонологической системы
+                </p>
+              </div>
+              <div class="swiper-slide services__card">
+                <img
+                  class="services__card-img"
+                  src="./images/medicine-icon.png"
+                  alt=""
+                />
+                <h3 class="services__card-title">Medicine</h3>
+                <p class="services__card-txt">
+                  Наши врачи-медики имеют большой опыт в диагностике и лечении
+                  заболеваний с использованием новейшей системы medicine.
+                </p>
+              </div>
+              <div class="swiper-slide services__card">
+                <img
+                  class="services__card-img"
+                  src="./images/kardiolog-icon.png"
+                  alt=""
+                />
+                <h3 class="services__card-title">Кардиологи</h3>
+                <p class="services__card-txt">
+                  Наши кардиологи имеют большой опыт в диагностике и лечении
+                  заболеваний сердечно-сосудистой системы.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-pagination services__pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about__text">
+          <h2 class="about__title">Коротко о нас</h2>
+          <p class="about__txt">Мы многопрофильный медицинский центр</p>
+        </div>
+        <div class="container">
+          <div class="about__content">
+            <p class="about__content-txt">
+              Наша клиника была основана в 2011 году. Мы гарантируем
+              высококлассное обслуживание и индивидуальный подход к <br />
+              КАЖДОМУ пациенту! <br />
+              У нас работают опытнейшие врачи Узбекистана, которые имеют высшую
+              категорию и проходили стажировку и обучение за рубежом. У всех
+              сотрудников нашей клиники имеются сертификаты международного
+              оброзца! Comfort Med рад предложить полный спектр медицинских
+              услуг, начиная с приема анализов заканчивая сложнейшими
+              хирургическими и пластическими операциями.
+            </p>
+            <a href="#form" class="btn">Узнать больше</a>
+          </div>
+        </div>
+      </section>
+      <section class="special">
+        <div class="container">
+          <h2 class="special__title">Наши специалисты</h2>
+          <p class="special__txt">
+            Наши онлайн-врачи имеют в среднем 20-летний опыт работы и рейтинг
+            удовлетворенности 98%
+          </p>
+          <div class="swiper mySwiper special__swiper">
+            <div class="swiper-wrapper special__cards">
+              <div class="swiper-slide special__card">
+                <img
+                  class="special__img"
+                  src="./images/specialImg-1 .jpg"
+                  alt=""
+                />
+                <h3 class="special__card-title">Др. Татьяна Владимировна</h3>
+                <p class="special__card-txt">Кардиолог</p>
+              </div>
+              <div class="swiper-slide special__card">
+                <img
+                  class="special__img"
+                  src="./images/specialImg-3.jpg"
+                  alt=""
+                />
+                <h3 class="special__card-title">Др. Мухаббат Мурадовна</h3>
+                <p class="special__card-txt">Невроавтолог</p>
+              </div>
+              <div class="swiper-slide special__card">
+                <img
+                  class="special__img"
+                  src="./images/specialImg-4.jpg"
+                  alt=""
+                />
+                <h3 class="special__card-title">Др. Андрей Владимирович</h3>
+                <p class="special__card-txt">УЗИст</p>
+              </div>
+              <div class="swiper-slide special__card">
+                <img
+                  class="special__img"
+                  src="./images/specialImg-5.jpg"
+                  alt=""
+                />
+                <h3 class="special__card-title">
+                  Др. Амарилло <br />
+                  Атаевич
+                </h3>
+                <p class="special__card-txt">Уролог</p>
+              </div>
+              <div class="swiper-slide special__card">
+                <img
+                  class="special__img"
+                  src="./images/specialImg-2.jpg"
+                  alt=""
+                />
+                <h3 class="special__card-title">Др. Гульназ Ибрагимовна</h3>
+                <p class="special__card-txt">Гинеколог</p>
+              </div>
+            </div>
+            <div class="swiper-pagination special__pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="form" id="form">
+        <div class="container">
+          <div class="form__content">
+            <div class="form__text">
+              <h2 class="form__title">Отправьте нам заявку</h2>
+            </div>
+            <form action="telegram.php" class="form__action" method="POST">
+              <div class="header__form-input">
+                <input
+                  type="text"
+                  class="form-control date name__input form__input"
+                  name="user_name"
+                  placeholder="Ваше Имя"
+                />
+              </div>
+              <div class="header__form-input">
+                <input
+                  type="text"
+                  class="form-control tel tel__input form__input"
+                  name="user_phone"
+                  placeholder="Ваш номер телефона"
+                />
+              </div>
+              <div class="btn__input">
+                <button class="btn form__btn">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <a href="#header" class="contacts__logo">
+            <img src="./images/logo.svg" alt="" />
+          </a>
+          <div class="contacts__content">
+            <div class="contacts__text">
+              <div class="contacts__numbers">
+                <h2 class="contacts__title">Контакты</h2>
+                <a href="tel:+998712152966" class="contacts__number"
+                  >+ 998 71 215 29 66</a
+                >
+                <a href="tel:+998971112966" class="contacts__number">
+                  + 998 97 111 29 66</a
+                >
+              </div>
+              <div class="contacts__sm">
+                <h2 class="contacts__title contacts__sm-title">Соц.сети</h2>
+                <a
+                  href="https://www.instagram.com/comfortmed_/"
+                  class="contacts__link"
+                  >@ComfortMedSergeli <img src="./images/Instagram.svg" alt=""
+                /></a>
+                <a href="https://t.me/comfortmedsergeli" class="contacts__link"
+                  >@ComfortMedSergeli <img src="./images/telegram.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="contacts__adress">
+              <h2 class="adress__title">Адресс</h2>
+              <p class="adress__txt">
+                Узбекистан, Ташкент, р-н Сергели, улица Янги Сергели, д. 4
+              </p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.2405235765336!2d69.22307611227544!3d41.21652867120247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae6108e43a42b5%3A0xdf0eb94e491ec576!2sComfort%20MED%20Tibbiyot%20Markazi!5e0!3m2!1sru!2s!4v1694324142977!5m2!1sru!2s"
+                width="100%"
+                height="302"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <h2 class="footer__title">
+        Создано группой
+        <a href="https://www.instagram.com/_coder_planet/"> @coder_planet</a>
+      </h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./script/main.js"></script>
+  </body>
+</html>

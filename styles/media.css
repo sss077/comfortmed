@@ -1,0 +1,149 @@
+@media (max-width: 1440px) {}
+
+@media (max-width: 1320px) {}
+
+@media (max-width: 1290px) {}
+
+@media (max-width: 1145px) {
+    .header__container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__title {
+        font-size: calc(21px + 12* (100vw / 1920));
+        text-align: center;
+    }
+
+    .header__txt {
+        text-align: center;
+    }
+    .header__btn{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 850px) {
+    .nav {
+
+        padding: 20px 0;
+    }
+
+    .nav__menu {
+        width: 40px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .nav__menu-line {
+        width: 100%;
+        height: 4px;
+        display: block;
+        background: #3E3E3E;
+        position: relative;
+        z-index: 999;
+    }
+
+    .nav__menu-line::after,
+    .nav__menu-line::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+    }
+
+    .nav__menu-list {
+        min-height: 100vh;
+        background: #fff;
+        position: fixed;
+        top: 10%;
+        left: -100%;
+        z-index: 888;
+        width: 100%;
+        display: flex;
+        transition: .4s;
+
+    }
+
+    .nav__menu-list.active {
+        left: 0;
+    }
+
+    .nav__list {
+        flex-direction: column;
+        gap: 120px;
+        padding: 80px;
+        flex-grow: 1;
+        align-items: center;
+    }
+
+    .nav__link {
+        font-size: 25px;
+    }
+
+    .send__msg {
+        font-size: 25px;
+        color: #3E3E3E;
+    }
+
+    .nav__menu-line::before {
+        top: -10px;
+    }
+
+    .nav__menu-line::after {
+        top: 10px;
+    }
+
+
+
+    .form__action {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn__input {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .form__action {
+        flex-wrap: wrap;
+    }
+
+    .form__btn {
+        text-align: center;
+    }
+}
+
+@media (max-width: 736px) {}
+
+@media (max-width: 734px) {}
+
+@media (max-width: 684px) {}
+
+@media (max-width: 667px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 460px) {}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 412px) {}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {}
